@@ -1,0 +1,196 @@
+<!-- HTML (PAGE 04)
+===================================== -->
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>page04</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+  <style>
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>page04</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />  <style>
+
+/* ===== FONDO ===== */
+body {
+  background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+  color: #ffffff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 12px;
+}
+
+header h2 {
+  color: #38bdf8;
+  margin: 0;
+}
+
+header h5 {
+  color: #cbd5f5;
+}
+
+/* ===== LINEA ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: #38bdf8;
+  margin: 20px 0;
+}
+
+/* ===== GRID CUADRADITOS ===== */
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+/* ===== CUADROS ===== */
+section > h2,
+section > h3,
+section > p {
+  background: rgba(30, 41, 59, 0.7);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+/* ===== HOVER ===== */
+section > h2:hover,
+section > h3:hover,
+section > p:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+/* ===== TITULO PRINCIPAL ===== */
+section > h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #22c55e;
+}
+
+/* ===== COLORES ===== */
+h2 {
+  color: #4ade80;
+}
+
+h3 {
+  color: #facc15;
+}
+
+/* ===== TEXTO ===== */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
+
+  </style>
+  </head>
+  
+
+  </style>
+    
+  
+</head>
+
+<body>
+
+  <header>
+    <h2>REDES</h2>
+    <h5>Comunicación entre Computadores</h5>
+  </header>
+  <hr>
+  <section>
+    <h1> REDES </h1>
+<h2> introducción</h2>
+<p> Las redes informáticas son sistemas que permiten conectar computadoras y dispositivos para compartir información, recursos y servicios.</p>
+<p>👉 Ejemplo:</p>
+<p> •Compartir internet</p>
+<p> •Enviar archivos</p>
+<p> •Usar impresoras en red</p>
+<p>📌 Importancia:</p>
+<p> •Facilitan la comunicación</p>
+<p> •Permiten el acceso a información global</p>
+<p> •Son base de Internet</p>
+<h2> 2. 🧱 Modelo OSI y TCP/IP</h2>
+<h3>Modelo OSI (7 capas)</h3>
+<p>Es un modelo que explica cómo viaja la información en una red.</p>
+<p>•Física → cables, señales</p>
+<p>•Enlace → transmisión de datos</p>
+<p>•Red → direcciones IP</p>
+<p>•Transporte → control de envío</p>
+<p>•Sesión → conexión entre equipos</p>
+<p>•Presentación → formato de datos</p>
+<p>•Aplicación → uso por el usuario</p>
+<h2> 🔹 Modelo TCP/IP (4 capas)</h2>
+<p>Es el modelo real usado en Internet.</p>
+<p>•Acceso a red</p>
+<p>•Internet</p>
+<p>•Transporte</p>
+<p>•Aplicación</p>
+<h3> Diferencia</h3>
+<p>✓OSI es teórico (para aprender)</p>
+<p>✓TCP/IP es práctico (se usa en la vida real)</p>
+<h2>3. 📡 Protocolos</h2>
+<p>Los protocolos son reglas que permiten la comunicación entre dispositivos.</p>
+<p>🔹 Ejemplos importantes:</p>
+<p>✓HTTP / HTTPS → Navegar en internet</p>
+<p>✓FTP → Transferir archivos</p>
+<p>✓TCP/IP → Base de Internet</p>
+<p>✓DNS → Traduce nombres de páginas (ej: google.com)</p>
+<h2>4. 🔹 Topologías de Red</h2>
+<p>Es la forma en que están conectados los dispositivos.</p>
+<p>🔸 Tipos:</p>
+<p>•Estrella ⭐: todos conectados a un centro (router)</p>
+<p>•Bus 🚌: una sola línea</p>
+<p>•Anillo 🔵: forma circular</p>
+<p>•Malla 🕸️: todos conectados entre sí</p>
+<h2> 5. 🔹 Software de Red y Simuladores</h2>
+<p>Son programas que permiten configurar, analizar o simular redes.</p>
+<p>🧠 Ejemplo importante:</p>
+<p>✓Packet Tracer → Simula redes (muy usado en educación)</p>
+<h2> ✔️ Funciones</h2>
+<p>•Crear redes virtuales</p>
+<p>•Configurar routers y switches</p>
+<p>•Practicar sin usar equipos reales</p>
+<h2> 6. 🔹 Dispositivos de Red</h2>
+<p>Son los equipos que permiten la conexión en la red.</p>
+<p>🔌 Principales:</p>
+<p>✓Router → Conecta a internet</p>
+<p>✓Switch → Conecta dispositivos en red local</p>
+<p>✓Módem → Da acceso a internet</p>
+<p>✓Access Point → Da WiFi</p>
+<p>✓Hub → Dispositivo básico (ya casi no se usa)</p>
+<h2> CONCLUSIÓN</h2>
+<p>Las redes son fundamentales hoy en día, ya que permiten la comunicación global. Gracias a modelos como OSI y TCP/IP, protocolos, dispositivos y software, podemos conectarnos y compartir información de manera rápida y eficiente.</p>
+<p>“Las redes están en todo lo que usamos hoy, desde el celular hasta el internet, y funcionan gracias a reglas, dispositivos y estructuras bien organizadas.”</p>
+  </section>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
